@@ -8,28 +8,14 @@
 body {
     background-color: #f0f2f5;
     min-height: 100vh;
-}
-
-.fb-header {
-    background-color: #ffffff;
-    padding: 8px 16px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 100;
-}
-
-.fb-logo {
-    color: #1877f2;
-    font-size: 40px;
-    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .container {
     max-width: 680px;
-    margin: 80px auto 20px;
+    margin: 20px;
     padding: 0 16px;
 }
 
