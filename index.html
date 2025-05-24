@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook-style Counter</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="fb-header">
+        <div class="fb-logo">
+            <i class="fab fa-facebook"></i>
+        </div>
+    </div>
+    <div class="container">
+        <div class="fb-card">
+            <div class="fb-card-header">
+                <img src="https://raw.githubusercontent.com/facebook/react/main/fixtures/attribute-behavior/public/favicon.ico" alt="Profile" class="profile-pic">
+                <div class="post-info">
+                    <h3>Facebook Counter</h3>
+                    <span class="timestamp">Just now</span>
+                </div>
+            </div>
+            <div class="counter-container">
+                <div class="counter" id="counter">0</div>
+                <div class="buttons">
+                    <button class="btn decrease">
+                        <i class="fas fa-thumbs-down"></i>
+                    </button>
+                    <button class="btn reset">
+                        <i class="fas fa-redo"></i>
+                    </button>
+                    <button class="btn increase">
+                        <i class="fas fa-thumbs-up"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="fb-card-footer">
+                <div class="interaction-stats">
+                    <span><i class="fas fa-thumbs-up"></i> <span id="likes">0</span> likes</span>
+                    <span>0 comments</span>
+                    <span>0 shares</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
